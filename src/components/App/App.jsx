@@ -1,5 +1,5 @@
-// import css './App.module.css';
-import Profile from '../Profile.jsx';
+// import css from './App.module.css';
+import Profile from '../Profile/Profile';
 import userData from '../../userData.json';
 
 const App = () => {
@@ -17,4 +17,3 @@ const App = () => {
 };
 
 export default App;
-console.log('hello');
