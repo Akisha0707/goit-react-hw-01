@@ -3,7 +3,6 @@ const Profile = ({ userData: username, tag, location, avatar, stats }) => {
     <div className="profile">
       <div className="description">
         <img src={avatar} alt="User avatar" className="avatar" />
-
         <p className="name">{username}</p>
         <p className="tag">{tag}</p>
         <p className="location">{location}</p>
@@ -26,5 +25,6 @@ const Profile = ({ userData: username, tag, location, avatar, stats }) => {
     </div>
   );
 };
+console.log(Profile);
 
 export default Profile;

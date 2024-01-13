@@ -1,6 +1,6 @@
-// import css from "./App.module.css";
-import Profile from './Profile.jsx';
-import userData from '../userData.json';
+// import css './App.module.css';
+import Profile from '../Profile.jsx';
+import userData from '../../userData.json';
 
 const App = () => {
   return (
@@ -17,3 +17,4 @@ const App = () => {
 };
 
 export default App;
+console.log('hello');
