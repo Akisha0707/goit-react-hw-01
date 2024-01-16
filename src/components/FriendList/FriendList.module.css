@@ -1,0 +1,8 @@
+.friendList {
+  display: flex;
+  gap: 50px;
+}
+
+.name {
+  text-align: center;
+}

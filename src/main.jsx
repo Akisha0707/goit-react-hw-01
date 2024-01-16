@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// import 'modern-normolize';
 import App from './components/App/App.jsx';
 import './index.css';
 

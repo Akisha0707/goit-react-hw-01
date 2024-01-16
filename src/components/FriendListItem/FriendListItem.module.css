@@ -1,0 +1,17 @@
+.item {
+  text-align: center;
+  color: blueviolet;
+}
+
+.item .isOnline {
+  color: green;
+  font-weight: bold;
+}
+
+.item .isOffline {
+  color: red;
+}
+
+.status {
+  font-weight: bold;
+}

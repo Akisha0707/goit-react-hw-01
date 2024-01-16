@@ -1,30 +1,31 @@
-const Profile = ({ userData: username, tag, location, avatar, stats }) => {
+import style from './Profile.module.css';
+
+const Profile = ({ name: username, tag, location, image, stats: { followers, views, likes } }) => {
   return (
-    <div className="profile">
-      <div className="description">
-        <img src={avatar} alt="User avatar" className="avatar" />
-        <p className="name">{username}</p>
-        <p className="tag">{tag}</p>
-        <p className="location">{location}</p>
+    <div className={style.profile}>
+      <div className={style.description}>
+        <img src={image} alt={username} className="avatar" width="200px" height="200px" />
+        <p className={style.name}>{username}</p>
+        <p className={style.tag}>@{tag}</p>
+        <p className={style.location}>{location}</p>
       </div>
 
-      <ul className="stats">
+      <ul className={style.stats}>
         <li>
-          <span className="label">Followers</span>
-          <span className="value">{stats.followers}</span>
+          <span className="label"> Followers </span>
+          <span className={style.value}>{followers}</span>
         </li>
         <li>
-          <span className="label"> Views</span>
-          <span className="value">{stats.views}</span>
+          <span className="label"> Views </span>
+          <span className={style.value}>{views}</span>
         </li>
         <li>
-          <span className="label">Likes</span>
-          <span className="value">{stats.likes}</span>
+          <span className="label"> Likes </span>
+          <span className={style.value}>{likes}</span>
         </li>
       </ul>
     </div>
   );
 };
-console.log(Profile);
 
 export default Profile;
