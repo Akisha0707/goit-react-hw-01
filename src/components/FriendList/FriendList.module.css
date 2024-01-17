@@ -4,5 +4,9 @@
 }
 
 .name {
+  padding-top: 20px;
+  border: solid black;
+  border-radius: 5%;
+  width: 100px;
   text-align: center;
 }
