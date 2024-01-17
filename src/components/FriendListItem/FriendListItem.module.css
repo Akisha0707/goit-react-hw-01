@@ -3,12 +3,12 @@
   color: blueviolet;
 }
 
-.item .isOnline {
+.item .status.isOnline {
   color: green;
   font-weight: bold;
 }
 
-.item .isOffline {
+.item .status.isOffline {
   color: red;
 }
 
