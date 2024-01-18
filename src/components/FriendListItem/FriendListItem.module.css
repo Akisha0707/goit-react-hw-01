@@ -2,11 +2,11 @@
   border: solid, black;
 }
 
-.item .status.isOnline {
+.item .isOnline {
   color: green;
 }
 
-.item .status.isOffline {
+.item .isOffline {
   color: red;
 }
 
