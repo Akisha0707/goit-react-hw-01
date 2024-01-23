@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+.options {
+  font-size: 20px;
+font-weight: bold;
+}
+
 /* 
 .logo {
   height: 6em;
