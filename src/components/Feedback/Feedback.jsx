@@ -1,7 +1,8 @@
-// import clsx from 'clsx';
 import css from './Feedback.module.css';
 
-const Feedback = ({good, neutral, bad}) => {
+
+
+const Feedback = () => {
   return (
     <div>
       <ul className={css.feedbackList}>
